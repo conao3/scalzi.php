@@ -23,7 +23,7 @@ module.exports = {
         dest: dest + '/css/',
         output: 'monaco.css',  // 出力ファイル名
         autoprefixer: {
-            browsers: ['last 2 versions']
+            overrideBrowserslist: ['last 2 versions']
         },
         minify: false
     },
